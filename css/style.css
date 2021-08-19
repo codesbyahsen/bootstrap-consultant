@@ -1,0 +1,133 @@
+
+/*--------- header ---------*/
+
+.bg-clr {
+    background-color: rgba(236, 236, 236, 0.856);
+    padding-top: 6px;
+    
+}
+
+.list1 li a {
+    font-size: 11px;
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+.list1 li {
+    margin-left: 18px;
+}
+
+.strong {
+    font-weight: 700;
+    color: #000!important;
+}
+
+ul {
+    list-style: none;    
+}
+
+ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.list2 li a {
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+.textaligncenter {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pad .icon {
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.sm {
+    font-size: 12px;
+    padding-left: 0;
+}
+
+.custom-pad {
+    padding-top: 21px;
+}
+
+.pad {
+    padding-left: 46px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.nav-bg {
+    background-color: #2E5797;
+    justify-content: center;
+}
+
+.navbar-nav {
+    margin: 4px 0;
+}
+
+.nav-link {
+    color: #fff!important;
+    font-weight: 350;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.nav-bg .nav-link:hover {
+    color: #2E5797!important;
+    background-color: #fff;
+    transition-duration: 0.7s;
+}
+/*---- header end ----*/
+
+.container2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#bg-img {
+    width: 100%;
+}
+
+.btn1 {
+    background-color: #2E5797;
+    border-color: #2E5797;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn2 {
+    background-color: #FDE428;
+    border-color: #FDE428;
+    color: #000;
+    font-weight: 600;
+}
+
+.image-text {
+    background-image: url('images/bg_img.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .txtcenter{
+        text-align: center;
+        vertical-align: middle;
+    }
+}
