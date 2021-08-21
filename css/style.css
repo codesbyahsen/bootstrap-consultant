@@ -66,46 +66,43 @@ ul li {
     padding-left: 46px;
 }
 
-.navbar {
-    padding: 0;
-}
-
 .nav-bg {
     background-color: #2E5797;
     justify-content: center;
-}
-
-.navbar-nav {
-    margin: 4px 0;
+    padding: 6px 0;
+    /* position: fixed;
+    top:0;
+    width: 100%; */
+    z-index: 9;
 }
 
 .nav-link {
     color: #fff!important;
-    font-weight: 350;
-    font-size: 14px;
-    margin-left: 25px;
+    padding-left: 20px!important;
 }
 
-.nav-bg .nav-link:hover {
-    color: #2E5797!important;
-    background-color: #fff;
-    transition-duration: 0.7s;
-}
+
 /*---- header end ----*/
 
 .container2 {
     padding-left: 0;
     padding-right: 0;
     background-image: url('/images/bg_img.jpg');
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
-#bg-img {
-    width: 100%;
+.txt h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.txt p {
+    font-weight: 600;
+    padding-bottom: 40px;
 }
 
 .btn1 {
@@ -123,24 +120,81 @@ ul li {
     margin-left: 6px;
 }
 
-.txt h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.txt p {
-    font-weight: 600;
-    padding-bottom: 40px;
-}
-
 .txt {
     padding: 120px 10px 10px 0px;
 }
 
+.label {
+    color: #fff;
+    background-color: rgb(18%, 34%, 59%, 0.8);
+    font-size: 1rem;
+    line-height: 2;
+    padding-left: 1rem;
+    margin: 0;
+    height: 2rem;
+    margin-top: -2rem;
+    position: relative;
+}
+
+.top-pad {
+    padding-top: 90px;
+}
+
+img {
+    width: 100%;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
+.header-line{
+    display: none;
+}
+
+.OS {
+    font-weight: bolder;
+    color: rgb(94, 94, 94);
+    padding-top: 80px;
+}
+
+.material-icons {
+    font-size: 38px !important;
+    color: #2E5797;
+    animation: fadeIn 4s;
+}
+
+.stg {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+    animation: fadeIn 4s;
+}
+
+.fade-in {
+     animation: fadeIn 4s;
+}
 
 
 
 
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 
 
@@ -149,5 +203,17 @@ ul li {
     .txtcenter{
         text-align: center;
         vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 814px) {
+    .header-line{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .pd {
+        margin-bottom: 20px;
     }
 }
